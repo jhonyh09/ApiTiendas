@@ -22,3 +22,4 @@ Route::get('/tiendas',[TiendaController::class, 'index']);
 Route::post('/tiendas',[TiendaController::class, 'store']);
 Route::put('/tiendas',[TiendaController::class,'update']);
 Route::delete('/tiendas',[TiendaController::class, 'destroy'] );
+

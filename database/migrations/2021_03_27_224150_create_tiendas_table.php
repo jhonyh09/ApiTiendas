@@ -37,3 +37,5 @@ class CreateTiendasTable extends Migration
         Schema::dropIfExists('tiendas');
     }
 }
+
+

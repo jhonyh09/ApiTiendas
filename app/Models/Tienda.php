@@ -12,3 +12,5 @@ class Tienda extends Model
     protected $fillable = ["nombre","direccion","telefono","email","lat","long","zoom","linkimagen"];
 
 }
+
+
